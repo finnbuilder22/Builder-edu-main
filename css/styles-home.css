@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #890304;
+  color: #f8f2bf;
+}
+/*Header Section*/
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #002263;
+  color: #f8f2bf;
+  align-items: center;
+  padding: 20px;
+}
+
+header a {
+  color: #f8f2bf;
+  text-decoration: none;
+  font-size: bold;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 8px;
+}
+
+.logo-main {
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+/*Hero Section*/
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hero img {
+  width: auto;
+  height: 200px; /*?? You need to know how to make a image fit in a box to make different size images line up */
+  margin: 20px 10px 0 10px;
+}
+.container {
+  text-align: center;
+}
+
+.title a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 8px 0;
+  color: #f8f2bf;
+}
