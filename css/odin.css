@@ -5,9 +5,14 @@
 }
 .index button {
   background-color: #002263;
-  color: #f8f2bf;
+
   border-radius: 50px;
   padding: 4px 10px;
   border: none;
   box-shadow: 0 0 4px #f8f2bf;
+}
+
+.index a {
+  color: #f8f2bf;
+  text-decoration: none;
 }
