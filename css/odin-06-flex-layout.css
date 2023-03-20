@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "eb garamond", sans-serif;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  
+}
+
+header ul,
+footer ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+header a,
+footer a {
+  text-decoration: none;
+  color: #666;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main img {
+  width: 400px;
+}
+
+main input {
+  width: 300px;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+main .buttonsBox {
+  display: flex;
+  gap: 16px;
+  }
+
+  main button{
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+  }
