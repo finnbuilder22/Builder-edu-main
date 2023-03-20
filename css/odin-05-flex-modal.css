@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  display: flex;
+  background-color: #fff;
+  width: 480px;
+  padding: 12px;
+  gap: 16px;
+  box-shadow: 2px 4px 16px #aaa;
+  border-radius: 10px;
+}
+
+.modal .alertSign {
+  color: rgb(33, 114, 176);
+  font-size: 26px;
+  font-weight: 900;
+  width: 42px;
+  height: 42px;
+  background-color: lavender;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.modal .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.modal .closeX {
+  background-color: #eee;
+  border-radius: 50px;
+  color: #888;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .text {
+  margin-bottom: 16px;
+}
+
+.modal button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.modal .continue {
+  background-color: royalblue;
+  border: 1px solid royalblue;
+  color: #fff;
+}
+
+.modal .cancel {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: royalblue;
+}
