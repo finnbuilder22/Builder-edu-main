@@ -25,13 +25,13 @@ header a {
   font-size: bold;
 }
 
-ul {
+header ul {
   display: flex;
   list-style-type: none;
-  gap: 8px;
+  gap: 12px;
 }
 
-.logo-main {
+header .logo-main {
   font-weight: 900;
   font-size: xx-large;
 }
@@ -47,7 +47,7 @@ ul {
   height: 200px; /*?? You need to know how to make a image fit in a box to make different size images line up */
   margin: 20px 10px 0 10px;
 }
-.container {
+.hero .box {
   text-align: center;
 }
 
