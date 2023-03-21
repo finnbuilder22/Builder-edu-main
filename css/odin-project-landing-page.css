@@ -130,7 +130,7 @@ main img {
 .quoteSection .text {
   font-style: italic;
   font-weight: light;
-  }
+}
 
 .quoteSection .name {
   display: flex;
@@ -138,10 +138,53 @@ main img {
   font-weight: bold;
 }
 
+.actionSection {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 150px;
+  gap: 20px;
+}
+
+.actionSection .actionContainer {
+  background-color: royalblue;
+  color: white;
+  display: flex;
+  height: 200px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
 
 
 
+.actionSection h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
 
+.actionSection p {
+  font-size: 20px;
+  width: 500px;
+
+}
+
+.actionSection button {
+  background-color: royalblue;
+  
+  font-size: 20px;
+  font-weight: bold;
+  padding: 4px 16px;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+
+.actionSection a {
+  color: white;
+  text-decoration: none;
+}
 footer {
   text-align: center;
   padding: 36px 0;
