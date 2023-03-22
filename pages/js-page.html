@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JS Page</title>
-  <link rel="stylesheet" href="../css/header-footer.css">
-  <link rel="stylesheet" href="../css/js.css">
-  <link rel="icon" href="../img/favicon.ico">
-</head>
-<body>
-  <!--Header Section-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Page</title>
+    <link rel="stylesheet" href="../css/header-footer.css" />
+    <link rel="stylesheet" href="../css/js.css" />
+    <link rel="icon" href="../img/favicon.ico" />
+  </head>
+  <body>
+    <!--Header Section-->
     <header>
       <div class="logo-main">&lt;Builder-Edu&gt;</div>
       <nav>
@@ -24,6 +24,121 @@
       </nav>
     </header>
 
-  
-</body>
+    <!--Index Section-->
+    <section id="index">
+      <button type="button"><a href="#outputSec">Output</a></button>
+      <button type="button"><a href="#satements"> Statements</a></button>
+      <button type="button"><a href="#syntax">Syntax</a></button>
+    </section>
+
+    <!--Syntax Section-->
+    <section id="syntaxSec">
+      <h2>Syntax</h2>
+
+      <div id="demoSyntax"></div>
+
+      <script>
+        let x;
+        x = 5;
+        document.getElementById("demoSyntax").innerHTML = x;
+      </script>
+
+      <div id="demoSyntax2"></div>
+      <script>
+        document.getElementById("demoSyntax2").innerHTML = (5 + 5) * 10;
+      </script>
+
+      <div id="demoSyntax3"></div>
+      <script>
+        document.getElementById("demoSyntax3").innerHTML = "John" + " " + "Doe";
+      </script>
+
+     <div id="demoSyntax4"></div>
+
+     <script>
+      const a = 3.14
+      let person = "David Doe"
+      let answer = 'B"H we are moving'
+      document.getElementById("demoSyntax4").innerHTML = a +"<br>" + person + "<br>" + answer;
+     </script>
+
+     <div id="demoSyntax5"></div>
+     <script>
+      let david;
+      david = "David's car"
+      document.getElementById('demoSyntax5').innerHTML = david;
+     </script>
+
+      <!--Section Footer^-->
+      <br />
+      <button class="backToTop"><a href="#backToTop">Back to Index</a></button>
+      <div class="line"></div>
+    </section>
+    <hr />
+    <!--Output Section-->
+    <section id="outputSec">
+      <h2>Output</h2>
+      <h3>innerHTML</h3>
+      <div id="demo"></div>
+
+      <script>
+        document.getElementById("demo").innerHTML = 5 + 5;
+      </script>
+      <hr />
+      <h3>document.write()</h3>
+      <ol>
+        <li>Should only be used for testing.</li>
+      </ol>
+
+      <script>
+        document.write(5 + 5);
+      </script>
+      <hr />
+      <h3>Using window.alert()</h3>
+
+      <script>
+        alert(5 + 5);
+      </script>
+      <hr />
+      <h3>Using console.log()</h3>
+      <ol>
+        <li>Used for debugging purposes</li>
+      </ol>
+      <hr />
+      <button type="button" onclick="window.print()">Print this page</button>
+
+      <!--Section Footer-->
+      <br />
+      <button class="backToTop"><a href="#backToTop">Back to Index</a></button>
+      <div class="line"></div>
+    </section>
+
+    <!--Statements-->
+    <h2 id="statements">Statements</h2>
+
+    <div id="demoStatement"></div>
+
+    <script>
+      let x, y, z;
+      x = 5;
+      y = 5;
+      z = x + y;
+
+      document.getElementById("demoStatement").innerHTML = "z = " + z + ".";
+    </script>
+
+    <p id="demoStatement2"></p>
+
+    <script>
+      document.getElementById("demoStatement2").innerHTML = "Hello Hello!";
+    </script>
+    <div id="demoStatement3"></div>
+    <script>
+      let a, b, c;
+      a = 4;
+      b = 5;
+      c = a + b;
+      document.getElementById("demoStatement3").innerHTML = c;
+    </script>
+  </body>
 </html>
