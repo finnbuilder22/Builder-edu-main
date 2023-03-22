@@ -10,99 +10,80 @@ body {
   padding-bottom: 40px;
 }
 
+.backToTop a {
+ color:#f8f2bf;
+ text-align: right;
+}
+
+section {
+   padding: 0 20px;
+  font-size: 20px;
+}
+
 h2 {
   text-align: center;
+  padding-top: 8px;
+  padding-bottom: 16px;
 }
 
-a {
-  color: #f8f2bf;
-}
-
-p {
-  margin: 20px;
-}
-
-.section-link {
-  text-decoration: none;
-}
-.back {
+.backToTop {
   text-align: right;
 }
 
-/*Header Section*/
-header {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
+.line {
   background-color: #002263;
-  color: #f8f2bf;
-  align-items: center;
+  height: 22px;
+}
+
+/* Index Section */
+
+#index {
   padding: 20px;
 }
 
-header a {
-  color: #f8f2bf;
-  text-decoration: none;
-  font-size: bold;
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-  gap: 8px;
-}
-
-.logo-main {
-  font-weight: 900;
-  font-size: xx-large;
-}
-
-/*Index Section*/
-#index {
-  padding: 0 8px;
-}
-button {
+#index button{
   background-color: #002263;
-  color: #f8f2bf;
-  font-size: 18px;
-  font-weight: 700;
-  margin: 8px 2px;
-  padding: 4px 8px;
-  border-radius: 50px;
-  border: none;
-  box-shadow: 0 0 4px #f8f2bf;
+  padding: 4px 16px;
+  font-size: 26px;
 }
+
+#index a {
+  color:#f8f2bf;
+  font-weight: 900;
+  text-decoration: none;
+}
+
 
 /*Align Section */
-.box {
+ #align .box {
   border: 2px solid #002263;
   width: 50%;
   margin: auto;
   height: 200px;
 }
 
-.box-vertical {
+#align .box-vertical {
     
   width: 50%;
   margin: auto;
 }
 
-.text-center {
+#align .text-center {
   text-align: center;
   color:#e8e5c3;
   font-style: italic;
 }
 
-.box {
+#align .box {
   width
 }
 
-.container {
+#align .container {
   border: 4px dotted #002263;
   padding: 50px 0;
 }
 
-.vertical-center {
+#align .vertical-center {
   padding: 75px 0;
   color: #e8e5c3;
   border: 2px solid #e8e5c3;
@@ -110,10 +91,45 @@ button {
 
 /*Background Section*/
 
-.box-background {
+#backgrounds .container {
+  display: flex;
+  gap: 20px;
+}
+
+#backgrounds .box-background {
   border: 2px solid #e8e5c3;
   height: 100px;
   width: 30%;
   background-color: #f8f2bf;
   color: #002263;
 }
+
+#backgrounds .background-image{
+  background-image: url(../img/torontoFlag.png);
+  flex: 1;
+  height: 250px;
+  color:deeppink;
+  font-weight: 900;
+}
+  #backgrounds .repeat-horizontally {
+    background-image: url(../img/torontoFlag.png);
+    background-repeat: repeat-x;
+    height: 350px;
+  }
+
+  #backgrounds .repeat-vertically {
+    background-image: url(../img/torontoFlag.png);
+    background-repeat: repeat-y;
+    height: 400px;
+    width: 400px;
+  }
+
+  #backgrounds .repeat-no {
+    margin-left: 300px;
+    height: 400px;
+    background-color: hotpink;
+    background-image: url(../img/torontoFlag.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed; /* Figure out why the picture disappears when you scroll to different sections on the page. */
+  }
