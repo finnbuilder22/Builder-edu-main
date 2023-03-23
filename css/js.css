@@ -1,0 +1,17 @@
+/* Index Section */
+section {
+  padding: 20px;
+}
+
+#index button {
+  font-size: 20px;
+  padding: 4px 16px;
+  background-color: #002263;
+  margin: 8px;
+}
+
+#index a {
+  color: #f8f2bf;
+  text-decoration: none;
+  font-weight: bold;
+}
