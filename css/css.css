@@ -10,6 +10,7 @@ body {
   padding-bottom: 40px;
 }
 
+/* General */
 .backToTop a {
   color: #f8f2bf;
   text-align: right;
@@ -33,6 +34,151 @@ h2 {
 .line {
   background-color: #002263;
   height: 22px;
+}
+
+/* Floats Section */
+
+#floats .FloatLayout {
+  
+}
+
+#floats .FloatLayout .header, .footer {
+  background-color: gray;
+  padding: 50px 16px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#floats .FloatLayout .left {
+  float: left ;
+}
+
+#floats .FloatLayout li {
+  list-style-type: none;
+  margin: 16px;
+  padding: 8px 16px;
+  background-color: royalblue;
+}
+
+#floats .FloatLayout li:hover {
+  background-color: #002263
+}
+
+#floats .FloatLayout a {
+  color: #f8f2bf;
+  text-decoration: none;
+}
+
+#floats .FloatLayout .right {
+margin-left: 20px;
+}
+
+#floats .FloatLayout .footer {
+  clear: left;
+}
+
+
+
+
+#floats .navFloat {
+  background-color: #002263;
+  margin: 10px;
+  padding: 10px;
+
+  overflow: auto;
+}
+
+#floats .floatNav ul {
+  list-style-type: none;
+  float: left;
+}
+
+#floats .floatNav li {
+  float: left;
+
+  margin: 16px;
+}
+
+#floats .floatNav li a {
+  text-decoration: none;
+  background-color: #f8f2bf;
+  margin: 16px;
+  padding: 8px 16px;
+  color: #890304;
+}
+
+#floats .floatNav li a:hover {
+  background-color: greenyellow;
+}
+
+#floats hr {
+  clear: left;
+}
+
+#floats .picBox {
+  background-color: #002263;
+
+  overflow: auto;
+}
+
+#floats .img-container {
+  float: left;
+  width: 25%;
+
+  padding: 8px;
+}
+
+#floats .picBox img {
+  width: 100%;
+  height: 250px;
+}
+
+#floats .clearfix {
+  border: 2px solid #f8f2bf;
+  overflow: auto;
+}
+
+#floats .imgClearfix {
+  clear: left;
+  width: 200px;
+  float: right;
+}
+
+#floats .div0 {
+  float: left;
+  padding: 15px;
+}
+
+#floats .div1 {
+  background-color: olive;
+}
+
+#floats .div2 {
+  background-color: teal;
+}
+
+#floats .div3 {
+  background-color: thistle;
+}
+
+#floats .div4 {
+  background-color: fuchsia;
+}
+#floats h3 {
+  clear: left;
+}
+
+#floats .img0 {
+  width: 100px;
+  height: auto;
+}
+
+#floats .img2 {
+  float: right;
+}
+
+#floats .backToTop {
+  clear: right;
 }
 
 /* Position Section */
@@ -141,7 +287,7 @@ h2 {
 }
 
 #dropdownsSec .dropdown2-content a:hover {
-background-color: #890304;
+  background-color: #890304;
 }
 
 #dropdownsSec .dropdown2:hover .dropdown2-content {
