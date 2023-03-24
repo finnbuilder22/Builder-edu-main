@@ -11,12 +11,12 @@ body {
 }
 
 .backToTop a {
- color:#f8f2bf;
- text-align: right;
+  color: #f8f2bf;
+  text-align: right;
 }
 
 section {
-   padding: 0 20px;
+  padding: 0 20px;
   font-size: 20px;
 }
 
@@ -35,27 +35,139 @@ h2 {
   height: 22px;
 }
 
+/* Position Section */
+
+#positionSec ul {
+  padding-left: 20px;
+}
+
+#positionSec .container {
+  position: relative;
+}
+
+#positionSec .topLeft {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#positionSec .topRight {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+#positionSec .container a,
+#positionSec .containerV2 a {
+  color: yellow;
+  text-decoration: dashed;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+#positionSec img {
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+
+#positionSec .containerV2 {
+  position: relative;
+}
+
+#positionSec .center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+#positionSec .containerV2 img {
+  height: 850px;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* Dropdown Section */
+
+#dropdownsSec .dropdown {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 30px;
+}
+
+#dropdownsSec .dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  color: yellow;
+}
+
+#dropdownsSec .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#dropdownsSec .dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+#dropdownsSec .dropdown2Button {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#dropdownsSec .dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #002263;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+#dropdownsSec .dropdown2-content a {
+  color: #f8f2bf;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+#dropdownsSec .dropdown2-content a:hover {
+background-color: #890304;
+}
+
+#dropdownsSec .dropdown2:hover .dropdown2-content {
+  display: block;
+}
+
 /* Index Section */
 
 #index {
   padding: 20px;
 }
 
-#index button{
+#index button {
   background-color: #002263;
   padding: 4px 16px;
   font-size: 26px;
 }
 
 #index a {
-  color:#f8f2bf;
+  color: #f8f2bf;
   font-weight: 900;
   text-decoration: none;
 }
 
-
 /*Align Section */
- #align .box {
+#align .box {
   border: 2px solid #002263;
   width: 50%;
   margin: auto;
@@ -63,19 +175,14 @@ h2 {
 }
 
 #align .box-vertical {
-    
   width: 50%;
   margin: auto;
 }
 
 #align .text-center {
   text-align: center;
-  color:#e8e5c3;
+  color: #e8e5c3;
   font-style: italic;
-}
-
-#align .box {
-  width
 }
 
 #align .container {
@@ -104,32 +211,32 @@ h2 {
   color: #002263;
 }
 
-#backgrounds .background-image{
+#backgrounds .background-image {
   background-image: url(../img/torontoFlag.png);
   flex: 1;
   height: 250px;
-  color:deeppink;
+  color: deeppink;
   font-weight: 900;
 }
-  #backgrounds .repeat-horizontally {
-    background-image: url(../img/torontoFlag.png);
-    background-repeat: repeat-x;
-    height: 350px;
-  }
+#backgrounds .repeat-horizontally {
+  background-image: url(../img/torontoFlag.png);
+  background-repeat: repeat-x;
+  height: 350px;
+}
 
-  #backgrounds .repeat-vertically {
-    background-image: url(../img/torontoFlag.png);
-    background-repeat: repeat-y;
-    height: 400px;
-    width: 400px;
-  }
+#backgrounds .repeat-vertically {
+  background-image: url(../img/torontoFlag.png);
+  background-repeat: repeat-y;
+  height: 400px;
+  width: 400px;
+}
 
-  #backgrounds .repeat-no {
-    margin-left: 300px;
-    height: 400px;
-    background-color: hotpink;
-    background-image: url(../img/torontoFlag.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed; /* Figure out why the picture disappears when you scroll to different sections on the page. */
-  }
+#backgrounds .repeat-no {
+  margin-left: 300px;
+  height: 400px;
+  background-color: hotpink;
+  background-image: url(../img/torontoFlag.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed; /* Figure out why the picture disappears when you scroll to different sections on the page. */
+}
