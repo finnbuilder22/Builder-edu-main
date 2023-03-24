@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  background-color: lightskyblue;
+}
+
+header {
+  background-color: black;
+  height: 60px;
+  width: 1000px;
+}
+
