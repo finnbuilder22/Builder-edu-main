@@ -31,6 +31,10 @@ header a {
   font-size: bold;
 }
 
+header .dropdown {
+  margin: 0 16px;
+}
+
 header ul {
   list-style-type: none;
  gap: 12px;
