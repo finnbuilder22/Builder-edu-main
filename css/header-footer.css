@@ -5,7 +5,6 @@
 }
 
 /*Header Section*/
-
 header {
   display: flex;
   justify-content: space-between;
@@ -14,6 +13,23 @@ header {
   color: #f8f2bf;
   align-items: center;
   padding: 20px;
+}
+
+header a {
+  color: #f8f2bf;
+  text-decoration: none;
+  font-size: bold;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 12px;
+}
+
+header .logo-main {
+  font-weight: 900;
+  font-size: xx-large;
 }
 
 header .logo-main {
