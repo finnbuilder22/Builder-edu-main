@@ -8,6 +8,92 @@ body {
 }
 
 header {
-background-color: white;
-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 100px;
+}
+
+header i, header .logo, header .profilePic {
+  cursor: pointer;
+}
+
+header .left {
+  display: flex;
+  gap: 30px;
+}
+
+header .left i {
+  padding-left: 30px;
+  font-size: 23px;
+}
+
+header img {
+  width: 100px;
+  background-color: white;
+}
+
+header .center {
+  display: flex;
+  align-items: center;
+}
+
+header .searchBar {
+display: flex;
+
+}
+
+header input {
+  width: 600px;
+  height: 42px;
+  font-size: 20px;
+  border: 1px solid #ddd;
+  padding-left: 12px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+header .searchBar i {
+  display: flex;
+  
+  align-items: top;
+  font-size: 20px;
+  border: 1px solid #ddd;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: lightgray;
+  padding-top: 10px;
+  width: 50px;
+  padding-right: 45px;
+  
+}
+
+header .center i {
+  font-size: 20px;  
+  padding-left: 20px;;
+}
+
+header .right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding-right: 30px;
+}
+
+header .right i {
+  font-size: 20px;
+  
+}
+
+header .profilePic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: royalblue;
+  color: white;
+  width: 42px;
+  height: 42px;
+  border-radius: 50px;
+ 
 }
